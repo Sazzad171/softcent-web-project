@@ -27,7 +27,7 @@ export default function Banner() {
         <div className="video position-relative mt-60">
           <img src={videoImg} alt="" className="img-fluid" />
           <div className="pulse-play-btn">
-            <a id="play-video" class="video-play-button popup-youtube" href="https://youtu.be/1PzqM6KE_54" target="_blank">
+            <a id="play-video" className="video-play-button popup-youtube" href="https://youtu.be/1PzqM6KE_54" target="_blank" rel='noreferrer'>
                 <span></span>
             </a>
           </div>

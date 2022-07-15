@@ -52,7 +52,7 @@ export default function Header() {
       </header>
 
       {/* mobile slidable menu */}
-      <div class={ `mobile-slidable-area ${ show ? 'show' : '' }` }>
+      <div className={ `mobile-slidable-area ${ show ? 'show' : '' }` }>
         <div className="logo-part row mb-10">
           <div className="col">
             <a href="#header"><img src={Logo} alt="logo" /></a>
