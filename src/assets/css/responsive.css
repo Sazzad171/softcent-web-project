@@ -1,0 +1,196 @@
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+  .col-md-6 {
+    width: 50%;
+    flex: 0 0 auto;
+  }
+}
+
+/* tab */
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+  .burger-icon {
+    display: none;
+  }
+}
+
+/* Normal desktop :. */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+
+@media (min-width: 1720px) {
+    
+}
+
+
+/* Mini desktop :1200px. */
+@media (max-width: 1200px) {
+    
+}
+ 
+/* Tablet :991px. */
+@media (max-width: 991px) {
+  header .menu-area ul {
+    display: none;
+  }
+  .our-products-area .details-area {
+    margin-left: 0;
+  }
+  .our-products-area .details-area.right {
+    margin-right: 0;
+  }
+  .our-products-area .details-area .inner {
+    padding: 20px;
+  }
+  .pricing-area .tab-area .price-item {
+    margin: 0 8px;
+  }
+}
+ 
+/* Large mobile :767px. */
+@media (max-width: 767px) {
+  body {
+    line-height: 1.5;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 52px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 36px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  h4 {
+    font-size: 20px;
+  }
+  h5 {
+    font-size: 18px;
+  }
+  h6 {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .banner-area {
+    padding: 30px 0;
+  }
+  .banner-area .video {
+    margin-top: 30px;
+  }
+  .customers-area .logo-area .logo-item {
+    width: 50%;
+  }
+  .customers-area,
+  .what-we-do-area {
+    padding-bottom: 30px;
+  }
+  .what-we-do-area .col {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .our-products-area {
+    padding: 30px 0;
+  }
+  .our-products-area .see-more-btn {
+    text-align: center;
+  }
+  .pricing-area {
+    padding: 30px 0;
+  }
+  .pricing-area .tab-area .col {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .dev-tech-area .react-tabs__tab {
+    width: 38%;
+    margin: 0px 6px 12px;
+  }
+  .dev-tech-area {
+    padding-bottom: 30px;
+  }
+  .dev-tech-area .dev-tech-logos .col,
+  .design-tech-area .design-logos .col {
+    width: 33.33%;
+  }
+  .design-tech-area {
+    padding-bottom: 30px;
+  }
+  .footer-middle .col-5 {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  .footer-middle .col {
+    width: 50%;
+    margin-bottom: 16px;
+  }
+  .what-we-do-area .shape-1,
+  .what-we-do-area .shape-2,
+  .what-we-do-area .shape-1,
+  .what-we-do-area .shape-2 {
+    display: none;
+  }
+  .customers-area .logo-area {
+    margin-top: 40px;
+  }
+  .what-we-do-area .section-heading {
+    text-align: center;
+  }
+  .what-we-do-area .working-topics {
+    margin-top: 40px;
+  }
+  .what-we-do-area .working-topics li {
+    font-size: 16px;
+  }
+  .our-products-area .heading-area .section-heading {
+    text-align: center;
+  }
+  .our-products-area .product-show-area {
+    margin-top: 30px;
+  }
+  footer {
+    padding-top: 30px !important;
+  }
+  footer .footer-top {
+    padding: 20px;
+  }
+  footer .footer-top .heading {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  footer .footer-top .start-project-btn {
+    text-align: center;
+  }
+  .footer-middle {
+    padding: 30px 0;
+  }
+}
+ 
+/* small mobile :576px. */
+@media (max-width: 576px) {
+    
+}
+
+@media only screen and (max-width: 479px){
+    
+}
