@@ -47,6 +47,13 @@
   header .menu-area ul {
     display: none;
   }
+  .banner-area .dotted-img {
+    display: none;
+  }
+  .popup-video-iframe {
+    height: 240px;
+    width: 300px;
+  }
   .our-products-area .details-area {
     margin-left: 0;
   }
@@ -58,6 +65,21 @@
   }
   .pricing-area .tab-area .price-item {
     margin: 0 8px;
+  }
+  .testimonial-area .testimonial-img .bg-shape {
+    display: none;
+  }
+  .testimonial-content-area .comment img {
+    display: none;
+  }
+  .testimonial-area .slick-slide {
+    margin: unset;
+  }
+  .testimonial-content-area {
+    padding: 0;
+  }
+  .testimonial-area .testimonial-img .main-img {
+    padding: 0;
   }
 }
  
@@ -97,6 +119,9 @@
   }
   .banner-area .video {
     margin-top: 30px;
+  }
+  .product-show-area .product-1.row {
+    flex-direction: column-reverse;
   }
   .customers-area .logo-area .logo-item {
     width: 50%;
@@ -167,6 +192,20 @@
   }
   .our-products-area .product-show-area {
     margin-top: 30px;
+  }
+  .testimonial-area {
+    padding-bottom: 50px;
+  }
+  .testimonial-area .section-heading {
+    margin-bottom: 50px;
+  }
+  .testimonial-area .main-row {
+    flex-direction: column-reverse;
+  }
+  .dev-tech-area img,
+  .design-tech-area img {
+    width: 60px;
+    margin-bottom: 10px;
   }
   footer {
     padding-top: 30px !important;

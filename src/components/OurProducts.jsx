@@ -28,7 +28,7 @@ export default function OurProducts() {
       </div>
 
       <div className="product-show-area mt-50">
-        <div className="row">
+        <div className="row product-1">
           <div className="col-md-6">
             <div className="details-area">
               <div className="inner">
@@ -51,7 +51,7 @@ export default function OurProducts() {
           </div>
         </div>
 
-        <div className="row">
+        <div className="row product-2">
           <div className="col-md-6">
             <div className="img-area">
               <img src={cashback} alt="" className="img-fluid" />

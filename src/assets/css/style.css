@@ -109,10 +109,20 @@ header .burger-icon svg {
 .banner-area .details {
   color: rgba(4, 4, 21, 0.6);
 }
+.banner-area .dotted-img {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  z-index: -1;
+}
 
 .banner-area .video img {
   width: 100%;
   border-radius: 6px;
+}
+.popup-video-iframe {
+  height: 480px;
+  width: 640px;
 }
 /* pulse play button */
 .video-play-button {
@@ -125,9 +135,9 @@ header .burger-icon svg {
   display: block;
   width: 32px;
   height: 44px;
-  /* background: #fa183d; */
   border-radius: 50%;
   padding: 40px 10px 18px 28px;
+  cursor: pointer;
 }
 
 .video-play-button:before {
@@ -204,6 +214,9 @@ header .burger-icon svg {
     transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
     opacity: 0;
   }
+}
+.ReactModalPortal .ReactModal__Overlay {
+  z-index: 11;
 }
 
 /* customers area start */
@@ -431,6 +444,62 @@ header .burger-icon svg {
 .design-tech-area .design-logos .col {
   width: 20%;
   text-align: center;
+}
+
+/* testimonial area start */
+.testimonial-area .section-heading img {
+  left: 0;
+  right: 0;
+  bottom: -26px;
+}
+.testimonial-area .testimonial-img .main-img {
+  padding: 0 5vw;
+}
+.testimonial-area .testimonial-img .bg-shape {
+  top: -80px;
+  left: 0;
+  z-index: -1;
+}
+.testimonial-area .main-row {
+  align-items: center;
+}
+.testimonial-content-area {
+  padding: 18px 20px 0;
+}
+.testimonial-area .slick-slide {
+  margin: 0 12px;
+}
+.testimonial-area .slick-dots li button:before {
+  font-size: 10px;
+  opacity: 1;
+  color: #CEDEF4;
+}
+.testimonial-area .slick-dots li.slick-active button:before {
+  color: #2D5BFF;
+}
+.testimonial-content-area .comment {
+  color: rgba(4, 4, 21, 0.6);
+  display: inline;
+}
+.testimonial-content-area .comment .quote-start {
+  left: -60px;
+  top: -20px;
+}
+.testimonial-content-area .comment .quote-end {
+  right: -60px;
+  bottom: -22px;
+}
+.testimonial-content-area .person-img {
+  margin-right: 16px;
+}
+.testimonial-content-area .person-name {
+  color: rgba(4, 4, 21, 0.8);
+}
+.testimonial-content-area .designation {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgba(4, 4, 21, 0.8);
 }
 
 
